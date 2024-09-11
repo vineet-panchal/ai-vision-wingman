@@ -90,7 +90,7 @@ export default function Home() {
                 >
                   <Box
                     bgcolor={
-                      message.role === 'assistant' ? 'primary.main' : 'secondary.main'
+                      message.role === 'assistant' ? 'rgb(8, 73, 201)' : 'rgb(110, 26, 81)'
                     }
                     position={"relative"}
                     color="white"
@@ -114,7 +114,7 @@ export default function Home() {
                 onChange={(e) => setMessage(e.target.value)}  
                 
                 />
-              <Button color="secondary" size="large" variant="contained" endIcon={<SendIcon />} onClick={sendMessage}>Send</Button>
+              <Button bgcolor="secondary" size="large" variant="contained" endIcon={<SendIcon />} onClick={sendMessage}>Send</Button>
             </Stack>
           </Stack>
         <Footer />
