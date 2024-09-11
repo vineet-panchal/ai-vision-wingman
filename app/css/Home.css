@@ -26,17 +26,15 @@
 
 .getStarted-btn:hover {
   letter-spacing: 3px;
-  background-color: white;
+  background-color: rgb(110, 26, 81);
   padding: 8px 15px;
-  color: black;
-  box-shadow: var(--purple-design) 0px 7px 29px 0px;
+  color: #EF79C0;
 }
 
 .getStarted-btn:active {
   letter-spacing: 3px;
-  background-color: white;
-  color: black;
-  box-shadow: var(--purple-design) 0px 0px 0px 0px;
+  background-color: rgb(110, 26, 81);
+  color: #EF79C0;
   transform: translateY(10px);
   transition: 100ms;
 }

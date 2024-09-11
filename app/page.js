@@ -16,9 +16,12 @@ export default function Home() {
       <div className="home-ctr">
         <Link className="getStarted-btn" href={"/chat"} passHref>Get Started</Link>
         <Footer />
-        <Spline
-          scene="https://prod.spline.design/E3nvVT3kt0P9425i/scene.splinecode" 
-        />
+        {/* <Spline
+          scene="https://prod.spline.design/hvxDA21P4LkTVASa/scene.splinecode" 
+        /> */}
+          <Spline
+            scene="https://prod.spline.design/w3KjyT-cKC5X-ap1/scene.splinecode" 
+          />
       </div>
     </>
   )

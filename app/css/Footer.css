@@ -6,11 +6,11 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #121212;
+  background-color: rgb(110, 26, 81);
   padding: 20px;
 }
 
 .copyright-mark {
   font-size: 12px;
-  color: rgb(161, 161, 161);
+  color: #EF79C0;
 } 

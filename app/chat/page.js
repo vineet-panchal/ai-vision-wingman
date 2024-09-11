@@ -9,7 +9,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: `Hi, I'm the Fashion Disaster Avoider Support Agent, how can I assist you today?`,
+      content: `Hi, I'm your personal AI Wingman, how can I assist you today?`,
     }
   ])
 
@@ -109,12 +109,7 @@ export default function Home() {
                 fullWidth 
                 value={message} 
                 onChange={(e) => setMessage(e.target.value)}  
-                InputProps={{
-                  style: { color: 'white' }, // This sets the text color to white
-                }}
-                InputLabelProps={{
-                  style: { color: 'white' }, // This sets the label color to white
-                }}  
+                
                 />
               <Button color="secondary" size="large" variant="contained" endIcon={<SendIcon />} onClick={sendMessage}>Send</Button>
             </Stack>
