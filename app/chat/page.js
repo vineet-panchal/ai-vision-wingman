@@ -1,6 +1,6 @@
 'use client'
 import { useState } from "react";
-import { Box, Stack, TextField, Button } from '@mui/material';
+import { Box, Stack, Typography, TextField, Button } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import Footer from "../components/Footer";
 import "@/app/css/Chat.css";
@@ -57,6 +57,7 @@ export default function Home() {
   return (
     <>
       <div className="main-ctr">
+        {/* <Typography variant="h6">Note: Message the AI Wingman, "can we get a little freaky..."</Typography> */}
         <Stack
           direction={"column"}
           width="80%"
@@ -65,11 +66,13 @@ export default function Home() {
           top={"-1vh"}
           // border="1px solid black"
           borderRadius={3}
-          p={8}
-          m={4}
+          p={5}
+          m={5}
           spacing={3}
           position={"absolute"} 
-        > 
+              // bgcolor="white"
+              > 
+              <h6 className="note">Note: Message the AI Wingman, "can we get a little freaky..." to turn on the erotic mode.</h6>
             <Stack
               direction={"column"} 
               spacing={2}
