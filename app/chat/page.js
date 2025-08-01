@@ -1,9 +1,9 @@
 'use client'
-import { useState } from "react";
+import { useState } from 'react';
 import { Box, Stack, Typography, TextField, Button } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
-import Footer from "../components/Footer";
-import "@/app/css/Chat.css";
+import Footer from '../components/Footer';
+import '@/app/css/Chat.css';
 
 export default function Home() {
   const [messages, setMessages] = useState([
